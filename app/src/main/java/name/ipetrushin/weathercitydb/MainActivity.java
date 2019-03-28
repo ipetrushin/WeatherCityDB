@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         citiesList = findViewById(R.id.citiesList);
         dbHelper = new DBHelper(this);
         db = dbHelper.getWritableDatabase();
